@@ -14,7 +14,7 @@ const PAGE_SIZE = 50
 type AdapterField struct {
 	Header     string
 	Field      string
-	CustomView func(row int, col int, dateItem interface{}) *tview.TableCell
+	CustomView func(row int, col int, dataItem interface{}) *tview.TableCell
 }
 
 type TViewTableAdapter struct {
